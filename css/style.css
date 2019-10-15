@@ -1,0 +1,613 @@
+body {
+    font-family: 'Metropolis', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    position: relative;
+    overflow-x: hidden;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h4 {
+    color: rgb(0 163 228);
+    font-weight: 600;
+}
+
+h5 {
+    color: rgb(9 61 125);
+    font-weight: 600;
+    font-size: 20px;
+}
+
+p {
+    font-family: 'Metropolis', sans-serif;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #797979;
+}
+
+/** navigacja **/
+
+.navbar ul {
+    padding-left: 0;
+    margin-right:-60px;
+    float: right;
+}
+
+.navbar li a {
+    padding: 25px 5px 0 5px;
+    margin: 0;
+    font-weight: 300
+}
+
+#nav {
+    z-index: 9999;
+}
+
+#nav.affix {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+
+}
+
+.navbar-custom {
+    margin-bottom: 0;
+    background-color: white;
+    border-radius: 0px;
+    padding: 0px 0 10px;
+    border-bottom:1px black solid;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 600;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: #fff;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: black;
+    font-weight: 700;
+}
+.navbar-custom .nav {
+    margin-left:0;
+}
+.navbar-custom .nav li a {
+    margin: 15px 30px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    -webkit-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: black;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+    color: black;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255, 255, 255, .3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+@media(min-width:991px) and (max-width:1199px){
+    
+    .navbar ul {
+    padding-left: 0;
+    margin-right:-30px;
+    float: right;
+}
+}
+@media(max-width:990px){
+    
+    .navbar ul {
+    padding-left: 0;
+    margin-right:-10px;
+    float: right;
+}
+}
+
+
+
+/** Navbar Logo **/
+
+.logo {
+
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: -15px;
+}
+.fb img{
+    width:30px;
+    height:30px
+    
+}
+
+a.page-scroll.fb{
+    padding-top:8px;
+}
+
+/** mediA NAV **/
+
+@media(min-width:1199px) {
+
+    .navbar ul {
+        padding-left: 145px;
+    }
+    .navbar li a {
+        padding: 15px 0 0 0;
+        margin: 0;
+        color: black;
+    }
+    .navbar-brand {
+        padding: 0;
+        margin-top: 10px;
+
+
+    }
+    
+}
+
+
+
+@media(min-width:992px) and (max-width:1199px) {
+    .navbar-custom a {
+        color: black;
+        font-weight: 700;
+    }
+
+    .navbar-custom .nav li a {
+        margin: 0;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        -webkit-transition: background .3s ease-in-out;
+
+
+    }
+    .navbar ul {
+        padding-left: 150px;
+    }
+    .navbar li a {
+        padding: 30px 0 0 20px;
+        margin: 0;
+    }
+    a.page-scroll.fb{
+    padding-top:23px;
+}
+}
+
+@media(min-width:768px) and (max-width:991px) {
+
+
+
+    .navbar-custom .nav li a {
+        margin: 0 -5px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        -webkit-transition: background .3s ease-in-out;
+
+
+    }
+    .navbar ul {
+        padding-left: 60px;
+    }
+    .navbar li a {
+        padding: 25px 0 0 20px;
+        margin: 0;
+        font-size: 11px;
+    }
+    a.page-scroll.fb{
+    padding-top:18px;
+}
+    .logo {
+
+    float: left;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    margin-left: 0;
+}
+}
+
+@media(max-width:767px) {
+
+    .logo {
+        float: none;
+        margin-top: -60px;
+        margin-left: 0;
+
+    }
+.navbar ul {
+    
+   float: inherit
+}
+}
+ 
+/*header*/
+
+.header img{
+    padding:0px 0;
+}
+
+
+/** o nas **/
+
+.about_as {
+    padding: 0;
+    margin: 0;
+}
+.about_as img{
+    width:30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-family:'Metropolis',
+}
+.about_as h1{
+    font-weight: 200;
+    font-size:25px;
+    
+}
+.about_as .container {
+
+    padding: 0;
+    
+}
+
+
+
+
+.about_as p {
+    font-size: 15px;
+    padding-top: 10px;
+    text-align: justify;
+
+}
+.about_as h1{
+    padding-top:10px;
+}
+
+
+
+
+
+@media(max-width:992px){
+    .about_as h1{
+    padding-bottom:15px;
+        text-align: center;
+}
+    .about_as p {
+    font-size: 15px;
+    padding-top: 0;
+   
+        margin-left: 15px;
+        margin-right: 15px;
+    text-align: justify;
+        
+
+}
+    .about_as{
+        padding-bottom: 20px;
+    }
+}
+
+
+
+/** nasi klienci **/
+
+.klienci .container {
+
+    padding: 0 ;
+}
+.klienci_img img {
+    width:30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    
+}
+.klienci .img-responsive{
+    padding: 0 30px 50px 50px;
+    
+}
+.klienci h1{
+    padding-bottom:40px;
+    padding-top: 30px;
+    font-weight: 200;
+    font-size:25px;
+}
+
+@media(max-width:992px){
+    .klienci h1{
+    padding-bottom:25px;
+        padding-top: 20px;
+        text-align: center;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/** kontakt **/
+
+
+.contact{
+    padding-bottom: 50px;
+    
+}
+.col-md-3 img {
+   width:70px;
+margin-left: 100px;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    
+}
+.col-md-3 p{
+    text-align: center;
+   width:220px;
+    margin-left: 20px;
+    
+    
+   
+    
+}
+.contact .znacznik{
+    margin-bottom: -5px;
+}
+.contact .halo{
+    margin-top: 25px;
+}
+.contact .koperta{
+    margin-top: 35px;
+}
+.contact .fb{
+    margin-top: 10px;
+    width:250px;
+    margin-left: 5px;
+}
+.row .icons{
+margin-left: 30px
+}
+
+
+.contact_img img{
+    width:30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+   
+    
+    
+}
+.contact h1{
+    padding-bottom:30px;
+    padding-top:20px;
+    font-family:'Metropolis';
+        font-weight: 200;
+    font-size:25px;
+}
+
+
+
+/** media kontakt **/
+
+@media(min-width:768px) and (max-width:991px) {
+
+.contact_img img{
+    width:30px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+     
+}   
+    .col-md-3 {
+   
+
+text-align: center;
+        
+    
+    
+}
+    .col-md-3 img {
+   width:70px;
+margin-left: 0;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    
+}
+    .contact .znacznik{
+  margin-left: auto;
+      margin-right: auto;
+       
+}
+        .contact .znacznik2{
+   margin-left: auto;
+             margin-right: auto;
+}
+    
+  .col-md-3 .halo  {
+    margin-left: auto;
+      margin-right: auto;
+          
+    
+}
+    .contact .koperta{
+    margin-left: auto;
+      margin-right: auto;
+}
+    .contact .fb{
+       margin-left: auto;
+      margin-right: auto;
+}
+    
+    .contact h1{
+    padding-bottom:30px;
+    padding-top:20px;
+        text-align:center;
+}
+}
+
+@media(max-width:767px) {
+    .contact h1{
+    padding-bottom:30px;
+    padding-top:20px;
+        text-align:center;
+}
+        .contact .znacznik{
+  margin-left: auto;
+      margin-right: auto;
+}
+            .contact .znacznik2{
+   margin-left: auto;
+             margin-right: auto;
+}
+    .col-md-3 {
+   
+
+text-align: center;
+        
+    
+    
+}
+    .col-md-3 img {
+   width:70px;
+margin-left: 0;
+    margin-bottom: 20px;
+    padding-top: 30px;
+    
+}
+  .col-md-3 .halo  {
+    margin-left: auto;
+      margin-right: auto;
+          
+    
+}
+    .contact .koperta{
+    margin-left: auto;
+      margin-right: auto;
+}
+    .contact .fb{
+       margin-left: auto;
+      margin-right: auto;
+}
+}
+
+
+
+/*footer*/
+.footer{
+    padding: 20px 0;
+}
+
+
+
+
+
+
+/** COOKIE **/
+
+#cookieinfo * {
+    margin: 0px;
+    padding: 0px;
+}
+
+#cookieinfo {
+    position: fixed;
+    font-size: 12px;
+    font-family: Arial, Verdana, sans-serif;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    background: #ebebeb;
+    ;
+    background-size: cover;
+    width: 100%;
+    padding: 20px;
+
+    z-index: 1000;
+}
+
+#cookieinfo h6 {
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+
+    margin-bottom: 7px;
+    font-family: 'Metropolis', sans-serif;
+}
+
+#cookieinfo p {
+    font-size: 12px;
+    color: black;
+    font-family: 'Metropolis', sans-serif;
+    line-height: 1.5em;
+
+}
+
+#cookieinfo a {
+    display: block;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    width: 22px;
+    height: 22px;
+    border-radius: 11px;
+    line-height: 22px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    background-color: white;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+    font-family: 'Metropolis', sans-serif;
+}
+
+#cookieinfo a:hover {
+    background-color: black;
+    color: white;
+}
